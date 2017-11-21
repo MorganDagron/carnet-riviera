@@ -1,0 +1,24 @@
+{
+  "name": "CarnetR-gulp",
+  "version": "1.0.0",
+  "description": "Gulp dependencies",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MorganDagron",
+  "dependencies": {
+   /* "browser-sync": "latest",*/
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-cache": "^1.0.1",
+    "gulp-concat": "latest",
+    "gulp-csso": "latest",
+    "gulp-imagemin": "latest",
+    "imagemin-svgo": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglifyjs": "latest"
+  }
+}

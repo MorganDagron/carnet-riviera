@@ -1,0 +1,17 @@
+@keyframes animsympa {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.bonjour {
+	display: inline-block;
+	animation: animsympa 3s infinite;
+	animation-timing-function: linear;
+	&:after {
+		content: "\1F602";
+	}
+} 

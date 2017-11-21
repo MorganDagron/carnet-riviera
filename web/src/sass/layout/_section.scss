@@ -1,0 +1,14 @@
+
+/*** MAIN SECTION *****************************************************************************/
+.main {
+  margin: 0;
+  padding: 0 2%;
+	max-width: 1200px;
+  @include bp(min,$normal) {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 90%;
+  }
+  @include bp(min,$desktop) { max-width: 1100px; }
+}
+

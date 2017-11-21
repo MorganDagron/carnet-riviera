@@ -1,0 +1,69 @@
+/*** BREAKPOINT **********************************/
+
+/*
+Set a max-width: @include bp(max,500px)
+Set a min-width: @include bp(min,250px)
+Set a min & max width: @include bp(500px,1000px)
+*/
+$desktop: 1400px;
+$laptop: 1200px;
+$normal: 1024px;
+$tablet: 768px;
+$phablet: 640px; 
+
+/*** BORDER RADIUS *******************************/
+$border-radius-default: 3px !default;
+
+
+/*** TINT / SHADE **********************************/
+$mix-percent-default: 20% !default;
+/*======================================================================*\
+                                   CONTRIB SASS
+\*======================================================================*/
+
+// IMPORT NORMALIZE
+@import "base/normalize";
+
+// IMPORT JUICE 
+@import "base/juice";
+
+// IMPORT MIXINS
+@import "base/mixins";
+
+@import "settings";
+ 
+
+/*======================================================================*\
+                                   CUSTOM SASS
+\*======================================================================*/
+// IMPORT BASE
+@import "base/base";
+
+// IMPORT MODULE
+@import "module/btn";
+
+// IMPORT LAYOUT
+@import "layout/common";
+@import "layout/header";
+@import "layout/navigation"; 
+@import "layout/section";
+@import "layout/footer";
+@import "layout/intern_content";
+ 
+// IMPORT PAGES
+
+// IMPORT STATE
+@import "state/state";
+
+
+
+
+
+
+
+
+
+
+
+
+
