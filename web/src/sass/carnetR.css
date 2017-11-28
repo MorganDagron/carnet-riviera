@@ -16,7 +16,7 @@ Set a min & max width: @include bp(500px,1000px)
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-/* line 12, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 12, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -30,14 +30,14 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
-/* line 25, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 25, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 body {
   margin: 0; }
 
 /**
  * Add the correct display in IE 9-.
  */
-/* line 33, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 33, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 article,
 aside,
 footer,
@@ -50,7 +50,7 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 47, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 47, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -61,7 +61,7 @@ h1 {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
-/* line 60, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 60, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 figcaption,
 figure,
 main {
@@ -71,7 +71,7 @@ main {
 /**
  * Add the correct margin in IE 8.
  */
-/* line 70, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 70, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
@@ -79,7 +79,7 @@ figure {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 79, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 79, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -92,7 +92,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 90, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 90, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -105,7 +105,7 @@ pre {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
-/* line 103, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 103, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 a {
   background-color: transparent;
   /* 1 */
@@ -117,7 +117,7 @@ a {
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 114, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 114, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -129,7 +129,7 @@ abbr[title] {
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
-/* line 124, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 124, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 b,
 strong {
   font-weight: inherit; }
@@ -137,7 +137,7 @@ strong {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 133, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 133, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 b,
 strong {
   font-weight: bolder; }
@@ -146,7 +146,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 143, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 143, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 code,
 kbd,
 samp {
@@ -158,14 +158,14 @@ samp {
 /**
  * Add the correct font style in Android 4.3-.
  */
-/* line 154, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 154, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 dfn {
   font-style: italic; }
 
 /**
  * Add the correct background and color in IE 9-.
  */
-/* line 162, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 162, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 mark {
   background-color: #ff0;
   color: #000; }
@@ -173,7 +173,7 @@ mark {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 171, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 171, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 small {
   font-size: 80%; }
 
@@ -181,7 +181,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 180, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 180, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -189,11 +189,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 188, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 188, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 192, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 192, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 sup {
   top: -0.5em; }
 
@@ -202,7 +202,7 @@ sup {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 203, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 203, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 audio,
 video {
   display: inline-block; }
@@ -210,7 +210,7 @@ video {
 /**
  * Add the correct display in iOS 4-7.
  */
-/* line 212, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 212, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -218,14 +218,14 @@ audio:not([controls]) {
 /**
  * Remove the border on images inside links in IE 10-.
  */
-/* line 221, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 221, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 img {
   border-style: none; }
 
 /**
  * Hide the overflow in IE.
  */
-/* line 229, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 229, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -235,7 +235,7 @@ svg:not(:root) {
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 241, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 241, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -254,7 +254,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 257, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 257, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -264,7 +264,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 267, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 267, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -275,7 +275,7 @@ select {
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 278, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 278, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 button,
 html [type="button"],
 [type="reset"],
@@ -286,7 +286,7 @@ html [type="button"],
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 289, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 289, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -297,7 +297,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 301, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 301, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -307,7 +307,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 312, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 312, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em; }
 
@@ -317,7 +317,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 323, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 323, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -336,7 +336,7 @@ legend {
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 337, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 337, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 progress {
   display: inline-block;
   /* 1 */
@@ -346,7 +346,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE.
  */
-/* line 346, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 346, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -354,7 +354,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
-/* line 355, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 355, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -365,7 +365,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 365, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 365, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -374,7 +374,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 375, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 375, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -384,7 +384,7 @@ textarea {
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
-/* line 384, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 384, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -393,7 +393,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 394, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 394, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -406,7 +406,7 @@ textarea {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
-/* line 407, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 407, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 details,
 menu {
   display: block; }
@@ -414,7 +414,7 @@ menu {
 /*
  * Add the correct display in all browsers.
  */
-/* line 416, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 416, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 summary {
   display: list-item; }
 
@@ -423,14 +423,14 @@ summary {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 427, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 427, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 canvas {
   display: inline-block; }
 
 /**
  * Add the correct display in IE.
  */
-/* line 435, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 435, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 template {
   display: none; }
 
@@ -439,11 +439,11 @@ template {
 /**
  * Add the correct display in IE 10-.
  */
-/* line 446, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 446, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 [hidden] {
   display: none; }
 
-/* line 449, D:/Carnet Riviera/Site/web/src/sass/base/_normalize.scss */
+/* line 449, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_normalize.scss */
 ul {
   list-style: none;
   margin: 0;
@@ -459,20 +459,20 @@ ul {
 \*======================================================================*/
 /*** DEFAULT **********************************************************************************/
 /*** BORDER BOX **********************************/
-/* line 5, D:/Carnet Riviera/Site/web/src/sass/base/_base.scss */
+/* line 5, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_base.scss */
 html {
   box-sizing: border-box; }
 
-/* line 6, D:/Carnet Riviera/Site/web/src/sass/base/_base.scss */
+/* line 6, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_base.scss */
 *, *:before, *:after {
   box-sizing: inherit; }
 
 /*** CLASSICO ***/
-/* line 9, D:/Carnet Riviera/Site/web/src/sass/base/_base.scss */
+/* line 9, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_base.scss */
 html {
   font-size: 62.5%; }
 
-/* line 10, D:/Carnet Riviera/Site/web/src/sass/base/_base.scss */
+/* line 10, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_base.scss */
 body {
   color: #303030;
   font-family: Arial, Helvetica, sans-serif;
@@ -481,45 +481,45 @@ body {
   font-weight: 400;
   background-color: #ffffff; }
   @media screen and (max-width: 767px) {
-    /* line 10, D:/Carnet Riviera/Site/web/src/sass/base/_base.scss */
+    /* line 10, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_base.scss */
     body {
       font-size: 15px;
       font-size: 1.5rem; } }
 
 /*  @include clearfix; */
-/* line 21, D:/Carnet Riviera/Site/web/src/sass/base/_base.scss */
+/* line 21, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_base.scss */
 .clear {
   clear: both;
   overflow: hidden; }
 
 /*** VRAK **************************************************************************************/
-/* line 27, D:/Carnet Riviera/Site/web/src/sass/base/_base.scss */
+/* line 27, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_base.scss */
 img, embed, object, video {
   max-width: 100%;
   height: auto; }
 
-/* line 32, D:/Carnet Riviera/Site/web/src/sass/base/_base.scss */
+/* line 32, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_base.scss */
 button {
   padding: 0;
   outline: none;
   background: none;
   border: none; }
 
-/* line 38, D:/Carnet Riviera/Site/web/src/sass/base/_base.scss */
+/* line 38, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_base.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-/* line 43, D:/Carnet Riviera/Site/web/src/sass/base/_base.scss */
+/* line 43, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_base.scss */
 h1 {
   margin: 0; }
 
-/* line 47, D:/Carnet Riviera/Site/web/src/sass/base/_base.scss */
+/* line 47, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_base.scss */
 img {
   display: inline-block;
   margin: 0 auto; }
 
-/* line 51, D:/Carnet Riviera/Site/web/src/sass/base/_base.scss */
+/* line 51, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/base/_base.scss */
 a {
   font-family: Arial, Helvetica, sans-serif; }
 
@@ -529,34 +529,62 @@ a {
   100% {
     transform: rotate(360deg); } }
 
-/* line 10, D:/Carnet Riviera/Site/web/src/sass/layout/_common.scss */
+/* line 10, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/layout/_common.scss */
 .bonjour {
   display: inline-block;
   animation: animsympa 3s infinite;
   animation-timing-function: linear; }
-  /* line 14, D:/Carnet Riviera/Site/web/src/sass/layout/_common.scss */
+  /* line 14, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/layout/_common.scss */
   .bonjour:after {
     content: "\1F602"; }
 
 /*** MAIN SECTION *****************************************************************************/
-/* line 3, D:/Carnet Riviera/Site/web/src/sass/layout/_section.scss */
+/* line 3, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/layout/_section.scss */
 .main {
   margin: 0;
   padding: 0 2%;
   max-width: 1200px; }
   @media screen and (min-width: 1024px) {
-    /* line 3, D:/Carnet Riviera/Site/web/src/sass/layout/_section.scss */
+    /* line 3, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/layout/_section.scss */
     .main {
       margin: 0 auto;
       padding: 0;
       max-width: 90%; } }
   @media screen and (min-width: 1400px) {
-    /* line 3, D:/Carnet Riviera/Site/web/src/sass/layout/_section.scss */
+    /* line 3, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/layout/_section.scss */
     .main {
       max-width: 1100px; } }
 
+/* line 1, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/layout/_intern_content.scss */
+body {
+  background-color: white; }
+
+/* line 4, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/layout/_intern_content.scss */
+header {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: url(../img/bg/bg_banniere.png) no-repeat;
+  background-size: cover;
+  background-position: center top; }
+  /* line 11, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/layout/_intern_content.scss */
+  header .logo {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); }
+
+/* line 19, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/layout/_intern_content.scss */
+main {
+  max-width: 1200px;
+  margin: 50px auto 0 auto;
+  text-align: center; }
+
 /*** CLASSICO **********************************************************************************/
-/* line 2, D:/Carnet Riviera/Site/web/src/sass/state/_state.scss */
+/* line 2, D:/Carnet Riviera/Site/carnet-riviera/web/src/sass/state/_state.scss */
 .hide {
   display: none; }
 
