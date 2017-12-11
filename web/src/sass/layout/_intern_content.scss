@@ -1,5 +1,7 @@
 body{
    background-color: white;
+   font-family: 'forum';
+   color : #353535;
 }
 header{
    position: relative;
@@ -8,6 +10,7 @@ header{
    background: url(../img/bg/bg_banniere.png) no-repeat;
    background-size: cover;
    background-position: center top;
+   
    .logo{
       display: block;
       position: absolute;
@@ -18,6 +21,60 @@ header{
 }
 main{
    max-width: 1200px;
-   margin: 50px auto 0 auto;
+   margin: 70px auto 0 auto;
    text-align: center;
+} 
+h1{
+   color: $aqua;
+   @include fontsize(35);
+   margin: 40px 0 0px 0;
+} 
+.aqua{
+   color: $aqua;
 }
+.font24{
+   @include fontsize(24);
+}
+.font35{
+   @include fontsize(30);
+   margin-top: 0;
+   margin-bottom: 20px;
+}
+
+p{
+   @include fontsize(20);
+}
+
+@include bp(max, 767px){
+   header{
+      height: 30vh;
+      .logo{
+         width: 60%;
+         bottom: -10%;
+      }
+   }
+   main{
+      padding: 0 12px;
+   }
+   h1,
+   .font35{
+      @include fontsize(24);
+   }
+   .font24{
+      @include fontsize(22);
+   }
+   p{
+      @include fontsize(18);
+   }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -4,7 +4,9 @@ $blanc: #ffffff;
 $black: #303030;
 $pink : #ffc5c4;
 $aqua : #e1f5f7;
+$light-grey : #e6e6e6;
 $light-aqua : #daf4f5;
+$aqua : #3393a7;
 $dark-aqua : #87b2b7;
 
 $badass : #BADA55;
@@ -20,6 +22,30 @@ $transition-base: $transition-duration $transition-function $transition-property
 
 
 /*** FONTS *************************************************************************************/
+@font-face {
+    font-family: 'lancelot';
+    src: url('../fonts/lancelot-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lancelot-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'forum';
+    src: url('../fonts/forum-regular-webfont.woff2') format('woff2'),
+         url('../fonts/forum-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html { 
+   font-size: 62.5%; 
+}
+body { 
+   font-size: 14px; 
+   font-size: 1.4rem;
+}
  
 
 /*** DEFAULT *************************************/
